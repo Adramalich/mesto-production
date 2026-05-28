@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-DLOK39u8.js"></script>
+    <script type="module" crossorigin src="./assets/index-VC7b0se2.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-DKwl_nIp.css">
   </head>
   <body class="page">
@@ -34,7 +34,6 @@
         <p class="footer__copyright">© 2025 Mesto Russia</p>
       </footer>
 
-      <!-- POPUPS (оставьте как есть) -->
       <div class="popup popup_type_edit">
         <div class="popup__content">
           <button type="button" class="popup__close"></button>
@@ -89,6 +88,16 @@
               <span class="popup__error" id="user-avatar-error"></span>
             </label>
             <button type="submit" class="button popup__button popup__button_disabled" disabled>Сохранить</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="popup popup_type_remove-card">
+        <div class="popup__content">
+          <button type="button" class="popup__close"></button>
+          <h3 class="popup__title">Вы уверены?</h3>
+          <form class="popup__form" name="remove-card" novalidate>
+            <button type="submit" class="button popup__button">Да</button>
           </form>
         </div>
       </div>
